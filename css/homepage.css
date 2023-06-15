@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+.header2:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+header:hover {
+  background-color: white;
+}
+
+.logo {
+  width: 60%;
+}
+
+.nc {
+  font-size: 20px;
+  text-decoration: none;
+  color: crimson;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  height: 40%;
+  background: url(../prato-chique.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 30px;
+}
+
+.content-banner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 3%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+
+.main {
+  justify-content: space-evenly;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 228, 196, 0.7);
+  padding: 2%;
+}
+
+.footer {
+  height: 12%;
+  background-color: rgba(0, 0, 0, 0.9);
+  ;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.footer h3 {
+  margin-right: 2%;
+  font-size: 25px;
+  color: white;
+}
+
+.contato {
+  display: flex;
+  width: 10%;
+  margin-right: 3%;
+  align-items: center;
+}
+
+.contato i {
+  margin-right: 10px;
+}
+
+.main2 {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+ul {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pp {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.funcionamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funcionamento p:first-child {
+  font-size: 20px;
+}
+
+.unidades {
+  font-size: 23px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.contato p {
+  color: white;
+  font-size: 18px;
+}
+
+.contato i {
+  color: white;
+  font-size: 18px;
+}
+
+.bgcardapio {
+  background-image: url('https://vejasp.abril.com.br/wp-content/uploads/2019/10/c381rea-externa_gula-gula_rc3b4mulo-fialdini-7.jpg.jpg');
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+
+.bgreceita {
+  background-image: url('https://joselito.com.br/wp-content/uploads/fundo-receitas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgcorzinha {
+  background-color: bisque;
+}
